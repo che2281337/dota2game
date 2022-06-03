@@ -66,6 +66,7 @@ let y = [250, 500, 750];
 let images = ["cripone.png", "criptwo.png", "cripthree.png"];
 let money = 0;
 let item = 0;
+let chance = getRandom(200);
 
 troika.onclick = function(){
 	mortra.style.left = "41%"
@@ -382,11 +383,18 @@ middle.onclick = function(){
 				bossnazad.style.display = "none";
 				int.style.display = "block";
 				mainblock.style.display = "none";
-				questiontab.style.display = "none";
-				intinf.innerHTML = "Перефармленный праймл вас налегке убил. Тильт?"
-				introbt.innerHTML = "Начать сначала"
-				introbt.onclick = function(){
-					location.reload()
+				if(chance >= 100){
+					intinf.innerHTML = "Вам повезло и вы убили перефармленного праймла."
+					introbt.innerHTML = "Начать сначала"
+					introbt.onclick = function(){
+						location.reload()
+					}
+				}else{
+					intinf.innerHTML = "Перефармленный праймл вас налегке убил. Тильт?"
+					introbt.innerHTML = "Начать сначала"
+					introbt.onclick = function(){
+						location.reload()
+					}
 				}
 			}
 		}
