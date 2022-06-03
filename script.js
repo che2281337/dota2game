@@ -170,12 +170,6 @@ magaz.onclick = function(){
 		scorestwo.innerHTML = "Деньги: " + money;
 		mainblock.style.display = "none";
 		location2.style.display = "block";
-		powert.style.display = "block";
-		desolator.style.display = "block";
-		blackb.style.display = "block";
-		basher.style.display = "block";
-		agshard.style.display = "block";
-		satan.style.display = "block";
 
 		powert.onclick = function(){
 			if(money >= 30){
@@ -270,12 +264,6 @@ magaz.onclick = function(){
 		nazad.onclick = function(){
 			mainblock.style.display = "block";
 			location2.style.display = "none";
-			powert.style.display = "none";
-			desolator.style.display = "none";
-			blackb.style.display = "none";
-			basher.style.display = "none";
-			agshard.style.display = "none";
-			satan.style.display = "none";
 		}
 	}
 
