@@ -71,7 +71,11 @@ troika.onclick = function(){
 	mortra.style.left = "41%"
 	mortra.style.top = "46%"
 	if(item >= 3){
-		alert("У вас 3 вещи, вы получаете в 2 раза больше голды.")
+		alert("У вас 3 вещи, вы получаете в 4 раза больше голды.")
+	}
+	
+	if(item >=2){
+		alert("У вас 2 вещи вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation1(){
 		let time = 30;
@@ -105,7 +109,11 @@ bigles.onclick = function(){
 	mortra.style.left = "54%"
 	mortra.style.top = "63%"
 	if(item >= 3){
-		alert("У вас 3 вещи, вы получаете в 2 раза больше голды.")
+		alert("У вас 3 вещи, вы получаете в 4 раза больше голды.")
+	}
+	
+	if(item >=2){
+		alert("У вас 2 вещи вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation2(){
 		let time = 30;
