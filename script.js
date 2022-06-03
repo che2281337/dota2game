@@ -383,6 +383,7 @@ middle.onclick = function(){
 				bossnazad.style.display = "none";
 				int.style.display = "block";
 				mainblock.style.display = "none";
+				questiontab.style.display = "none";
 				if(chance >= 100){
 					intinf.innerHTML = "Вам повезло и вы убили перефармленного праймла."
 					introbt.innerHTML = "Начать сначала"
