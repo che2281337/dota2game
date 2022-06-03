@@ -145,8 +145,14 @@ function create(){
 	elem.style.backgroundImage = "url(" + images[randomImg] + ")";
 		
 	elem.onclick = function(){
-		if(item >= 3){
+		if(item >= 2){
 			money = money + 2;
+		}else{
+			money = money + 1;
+		}
+		
+		if(item >= 3){
+			money = money + 4;
 		}else{
 			money = money + 1;
 		}
