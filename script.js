@@ -278,6 +278,9 @@ middle.onclick = function(){
 	function changeLocation4(){
 		mainblock.style.display = "none";
 		location3.style.display = "block";
+		if(item == 6){
+			bossfight.innerHTML = "Принять бой";
+		}
 		bossfight.onclick = function(){
 			if(item == 6){
 				bossfight.style.display = "none";
