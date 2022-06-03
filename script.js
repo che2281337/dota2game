@@ -70,7 +70,7 @@ let item = 0;
 troika.onclick = function(){
 	mortra.style.left = "41%"
 	mortra.style.top = "46%"
-	if(item == 3){
+	if(item >= 3){
 		alert("У вас 3 вещи, вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation1(){
@@ -104,7 +104,7 @@ troika.onclick = function(){
 bigles.onclick = function(){
 	mortra.style.left = "54%"
 	mortra.style.top = "63%"
-	if(item == 3){
+	if(item >= 3){
 		alert("У вас 3 вещи, вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation2(){
@@ -145,7 +145,7 @@ function create(){
 	elem.style.backgroundImage = "url(" + images[randomImg] + ")";
 		
 	elem.onclick = function(){
-		if(item == 3){
+		if(item >= 3){
 			money = money + 2;
 		}else{
 			money = money + 1;
