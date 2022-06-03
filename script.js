@@ -74,7 +74,7 @@ troika.onclick = function(){
 		alert("У вас 3 вещи, вы получаете в 4 раза больше голды.")
 	}
 	
-	if(item >=2){
+	if(item >= 2){
 		alert("У вас 2 вещи вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation1(){
@@ -112,7 +112,7 @@ bigles.onclick = function(){
 		alert("У вас 3 вещи, вы получаете в 4 раза больше голды.")
 	}
 	
-	if(item >=2){
+	if(item >= 2){
 		alert("У вас 2 вещи вы получаете в 2 раза больше голды.")
 	}
 	function changeLocation2(){
@@ -338,7 +338,7 @@ middle.onclick = function(){
 									mainblock.style.display = "none";
 									questiontab.style.display = "none";
 									location3.style.display = "none";
-									intinf.innerHTML = "Вас спас башер в последний миг. Победа!"
+									intinf.innerHTML = "Вам прокнул крит в последний миг. Победа!"
 									introbt.innerHTML = "Начать сначала"
 									introbt.onclick = function(){
 										location.reload()
